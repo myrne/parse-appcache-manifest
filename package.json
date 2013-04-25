@@ -1,0 +1,31 @@
+{
+  "name": "parse-appcache-manifest",
+  "description": "Parses HTML5 application cache manifest",
+  "keywords": [],
+  "version": "0.0.0",
+  "author": "Meryn Stol <merynstol@gmail.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/meryn/parse-appcache-manifest",
+  "bugs": "https://github.com/meryn/parse-appcache-manifest/issues",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/meryn/parse-appcache-manifest.git"
+  },
+  "private": false,
+  "dependencies": {},
+  "devDependencies": {
+    "coffee-script": "~1.6.2",
+    "mocha": "~1.9.0"
+  },
+  "optionalDependencies": {},
+  "engines": {
+    "node": "0.10.x",
+    "npm": "1.2.x"
+  },
+  "main": "lib/parse-appcache-manifest.js",
+  "scripts": {
+    "prepublish": "npm test",
+    "pretest": "make build",
+    "test": "make test"
+  }
+}
