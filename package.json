@@ -1,6 +1,6 @@
 {
   "name": "parse-appcache-manifest",
-  "description": "Parses HTML5 application cache manifest",
+  "description": "Parses HTML5 application cache manifest.",
   "keywords": [],
   "version": "0.0.1",
   "author": "Meryn Stol <merynstol@gmail.com>",
