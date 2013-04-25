@@ -1,0 +1,15 @@
+{
+  "cache": [
+    "index.html",
+    "css/style.css",
+    "images/logo1.png",
+    "images/logo2.png",
+    "images/logo3.png"
+  ],
+  "network": [
+    "*"
+  ],
+  "fallback": {
+    "/": "/offline.html"
+  }
+}

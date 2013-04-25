@@ -1,0 +1,15 @@
+{
+  "cache": [
+    "/css/screen.css",
+    "/css/offline.css",
+    "/js/screen.js",
+    "/img/logo.png",
+    "http://example.com/css/styles.css"
+  ],
+  "network": [
+    "*"
+  ],
+  "fallback": {
+    "/": "/offline.html"
+  }
+}
