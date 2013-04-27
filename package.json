@@ -15,7 +15,8 @@
   "dependencies": {},
   "devDependencies": {
     "coffee-script": "~1.6.2",
-    "mocha": "~1.9.0"
+    "mocha": "~1.9.0",
+    "source-map-support": "~0.1.4"
   },
   "optionalDependencies": {},
   "engines": {
