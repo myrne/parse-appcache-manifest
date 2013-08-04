@@ -1,0 +1,25 @@
+CACHE MANIFEST
+#rev 289
+
+CACHE:
+index.html
+search.html
+#purge.html #do not add purge
+panel.html
+shortcuts.html
+osdd
+_.js
+_.css
+css/theme_white.css
+css/theme_black.css
+bg_texture.png
+josefin_sans_regular.otf
+
+NETWORK:
+*
+#fucking FF not supporting *
+#http://www.google-analytics.com #i yet didn't test if GA isn't working
+http://twitter.com/favicon.ico
+http://www.facebook.com/favicon.ico
+share.html
+
