@@ -41,7 +41,7 @@
       FALLBACK: (line) -> 
         bits = line.split " "
         entries.fallback[bits[0]] = bits[1]
-    
+
     for line in lines
       line = line.trim()
       if foundSection = findSection line
