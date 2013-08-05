@@ -13,7 +13,7 @@ parseManifest = require("parse-appcache-manifest")
 entries = parseManifest(manifest)
 ```
 
-`entries` will be an object with three properties: `cache`, `network`, `fallback`. 
+`entries` will be an object with three properties: `cache`, `network`, `fallback`, and `settings`. 
 
 `cache` and `network` are both arrays which contain entries. 
 
