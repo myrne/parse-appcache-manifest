@@ -4,6 +4,10 @@ Parses HTML5 application cache manifest.
 
 ## Usage
 
+`npm install parse-appcache-manifest`
+
+#### Direct Object
+
 ```javascript
 parseManifest = require("parse-appcache-manifest")
 entries = parseManifest(manifest)
@@ -16,6 +20,7 @@ entries = parseManifest(manifest)
 `fallback` is an object with the url (or url pattern) as key, and the fallback url as value.
 
 
+#### Tokenized
 If you need access to a tokenized version of the manifest file (e.g., you want to modify an existing manifest file and need to preserve comments and newlines, etc)
 
 
