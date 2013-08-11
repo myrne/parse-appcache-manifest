@@ -10,5 +10,66 @@
   ],
   "fallback": {
     "/localstorage-cache/": "fallback.html"
-  }
+  },
+  "settings": [],
+  "tokens": [
+    {
+        "type": "magic signature",
+        "value": "CACHE MANIFEST"
+    },
+    {
+        "type": "newline"
+    },
+    {
+        "type": "data",
+        "tokens": [
+            "js/jquery-1.7.1.js"
+        ]
+    },
+    {
+        "type": "data",
+        "tokens": [
+            "js/offliner-v1.js"
+        ]
+    },
+    {
+        "type": "data",
+        "tokens": [
+            "js/offlineInterface-v1.js"
+        ]
+    },
+    {
+        "type": "data",
+        "tokens": [
+            "css/core-v1.css"
+        ]
+    },
+    {
+        "type": "newline"
+    },
+    {
+        "type": "mode",
+        "value": "NETWORK"
+    },
+    {
+        "type": "data",
+        "tokens": [
+            "*"
+        ]
+    },
+    {
+        "type": "newline"
+    },
+    {
+        "type": "mode",
+        "value": "FALLBACK"
+    },
+    {
+        "type": "data",
+        "tokens": [
+            "/localstorage-cache/",
+            "fallback.html"
+        ]
+    }
+  ]
 }
