@@ -87,4 +87,4 @@ Tokenizing support, settings support, whatwg spec conformance, and updated docum
 ## License
 
 parse-appcache-manifest is released under the [MIT License](http://opensource.org/licenses/MIT).  
-Copyright (c) 2013 Meryn Stol  
+Copyright (c) 2013 Meryn Stol, [Mike Reinstein](https://github.com/mreinstein)
