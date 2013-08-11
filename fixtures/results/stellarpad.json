@@ -25,5 +25,152 @@
   "network": [
     "*"
   ],
-  "fallback": {}
+  "fallback": {},
+  "settings": [],
+    "tokens": [
+        {
+            "type": "magic signature",
+            "value": "CACHE MANIFEST"
+        },
+        {
+            "type": "data",
+            "tokens": [
+                "./"
+            ]
+        },
+        {
+            "type": "data",
+            "tokens": [
+                "latest.css"
+            ]
+        },
+        {
+            "type": "data",
+            "tokens": [
+                "latest.js"
+            ]
+        },
+        {
+            "type": "data",
+            "tokens": [
+                "favicon.ico"
+            ]
+        },
+        {
+            "type": "data",
+            "tokens": [
+                "robots.txt"
+            ]
+        },
+        {
+            "type": "data",
+            "tokens": [
+                "images/patterns/less_light_toast.png"
+            ]
+        },
+        {
+            "type": "data",
+            "tokens": [
+                "images/patterns/less_light_toast_@2x.png"
+            ]
+        },
+        {
+            "type": "data",
+            "tokens": [
+                "images/patterns/light_toast.png"
+            ]
+        },
+        {
+            "type": "data",
+            "tokens": [
+                "images/patterns/light_toast_@2x.png"
+            ]
+        },
+        {
+            "type": "data",
+            "tokens": [
+                "images/patterns/paper_noise.png"
+            ]
+        },
+        {
+            "type": "data",
+            "tokens": [
+                "images/patterns/paper_noise_@2x.png"
+            ]
+        },
+        {
+            "type": "data",
+            "tokens": [
+                "images/patterns/subtle_surface.png"
+            ]
+        },
+        {
+            "type": "data",
+            "tokens": [
+                "images/patterns/subtle_surface_@2x.png"
+            ]
+        },
+        {
+            "type": "data",
+            "tokens": [
+                "images/icons/tile-1/Icon-72.png"
+            ]
+        },
+        {
+            "type": "data",
+            "tokens": [
+                "images/icons/tile-1/Icon-72@2x.png"
+            ]
+        },
+        {
+            "type": "data",
+            "tokens": [
+                "images/icons/tile-1/Icon.png"
+            ]
+        },
+        {
+            "type": "data",
+            "tokens": [
+                "images/icons/tile-1/Icon@2x.png"
+            ]
+        },
+        {
+            "type": "data",
+            "tokens": [
+                "images/icons/pad-1/Icon-72.png"
+            ]
+        },
+        {
+            "type": "data",
+            "tokens": [
+                "images/icons/pad-1/Icon-72@2x.png"
+            ]
+        },
+        {
+            "type": "data",
+            "tokens": [
+                "images/icons/pad-1/Icon.png"
+            ]
+        },
+        {
+            "type": "data",
+            "tokens": [
+                "images/icons/pad-1/Icon@2x.png"
+            ]
+        },
+        {
+            "type": "mode",
+            "value": "NETWORK"
+        },
+        {
+            "type": "data",
+            "tokens": [
+                "*"
+            ]
+        },
+        {
+            "type": "comment",
+            "value": " Generated at Tue, 19 Feb 2013, 22:40 GMT"
+        }
+    ]
 }

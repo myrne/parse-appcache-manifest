@@ -3,14 +3,20 @@
  module.exports = (manifest) ->
   lines = manifest.split /\r\n|\r|\n/
 
-  # TODO: this is incorrectly parsing the magic signature
-  #   MUST start with CACHE
-  #   space, tab, or new line MUST follow CACHE MANIFEST
-  #   after space or tab, other characters MAY appear and MUST be ignored 
-  firstLine = lines.shift().trim()
+  # validate the magic signature as per the spec:
+  
+  firstLine = lines.shift()
+  # MUST start with CACHE MANIFEST
   if firstLine.indexOf('CACHE MANIFEST') isnt 0
     throw new Error("Invalid cache manifest header: #{firstLine}")
 
+  # If the character at position after CACHE MANIFEST is neither a U+0020 SPACE
+  # character, a U+0009 CHARACTER TABULATION (tab) character, U+000A LINE FEED
+  # (LF) character, nor a U+000D CARRIAGE RETURN (CR) character, then this
+  # isn't a cache manifest; abort this algorithm with a failure 
+  if firstLine.length > 'CACHE MANIFEST'.length and firstLine[14] isnt ' ' and firstLine[14] isnt '\t'
+    throw new Error("Invalid cache manifest header: #{firstLine}")
+    
   currentSection = 'CACHE'
 
   entries = 

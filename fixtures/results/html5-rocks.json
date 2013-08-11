@@ -9,7 +9,101 @@
   "network": [
     "*"
   ],
+  "settings": [ ],
   "fallback": {
     "/": "/offline.html"
-  }
+  },
+  "tokens": [
+    {
+        "type": "magic signature",
+        "value": "CACHE MANIFEST"
+    },
+    {
+        "type": "comment",
+        "value": " 2010-06-18:v3"
+    },
+    {
+        "type": "newline"
+    },
+    {
+        "type": "comment",
+        "value": " Explicitly cached entries"
+    },
+    {
+        "type": "data",
+        "tokens": [
+            "index.html"
+        ]
+    },
+    {
+        "type": "data",
+        "tokens": [
+            "css/style.css"
+        ]
+    },
+    {
+        "type": "newline"
+    },
+    {
+        "type": "comment",
+        "value": " offline.html will be displayed if the user is offline"
+    },
+    {
+        "type": "mode",
+        "value": "FALLBACK"
+    },
+    {
+        "type": "data",
+        "tokens": [
+            "/",
+            "/offline.html"
+        ]
+    },
+    {
+        "type": "newline"
+    },
+    {
+        "type": "comment",
+        "value": " All other resources (e.g. sites) require the user to be online."
+    },
+    {
+        "type": "mode",
+        "value": "NETWORK"
+    },
+    {
+        "type": "data",
+        "tokens": [
+            "*"
+        ]
+    },
+    {
+        "type": "newline"
+    },
+    {
+        "type": "comment",
+        "value": " Additional resources to cache"
+    },
+    {
+        "type": "mode",
+        "value": "CACHE"
+    },
+    {
+        "type": "data",
+        "tokens": [
+            "images/logo1.png"
+        ]
+    },
+    {
+        "type": "data",
+        "tokens": [
+            "images/logo2.png"
+        ]
+    },
+    {
+        "type": "data",
+        "tokens": [
+            "images/logo3.png"
+        ]
+    }
+  ]
 }
