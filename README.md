@@ -1,5 +1,7 @@
 # parse-appcache-manifest [![Build Status](https://travis-ci.org/meryn/parse-appcache-manifest.png?branch=master)](https://travis-ci.org/meryn/parse-appcache-manifest) [![Dependency Status](https://david-dm.org/meryn/parse-appcache-manifest.png)](https://david-dm.org/meryn/parse-appcache-manifest)
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/braveg1rl/parse-appcache-manifest.svg)](https://greenkeeper.io/)
+
 Parses HTML5 application cache manifest.
 
 ## Usage
