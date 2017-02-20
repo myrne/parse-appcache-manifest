@@ -16,9 +16,9 @@
     "url": "git://github.com/meryn/parse-appcache-manifest.git"
   },
   "devDependencies": {
-    "coffee-script": "1.6.x",
-    "mocha": "~1.9.0",
-    "source-map-support": "~0.1.4"
+    "coffee-script": "~1.12.4",
+    "mocha": "~3.2.0",
+    "source-map-support": "~0.4.11"
   },
   "engines": {
     "node": "0.10.x",
